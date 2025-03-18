@@ -1,0 +1,16 @@
+{
+  "transport": "websocket",
+  "port": 55028,
+  "payloads": [
+    {
+      "payload": "examples/payloads/payload1.json",
+      "delay": 5,
+      "repeat": 10
+    },
+    {
+      "payload": "examples/payloads/payload2.json",
+      "delay": 5,
+      "repeat": 10
+    }
+  ]
+}

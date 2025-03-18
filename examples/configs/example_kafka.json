@@ -1,0 +1,20 @@
+{
+  "produce": [
+    {
+      "topic": "commands",
+      "payload": "examples/payloads/payload1.json",
+      "delay": 5,
+      "repeat": 10
+    },
+    {
+      "topic": "telemetry",
+      "payload": "examples/payloads/payload2.json",
+      "delay": 5,
+      "repeat": 10
+    }
+  ],
+  "consume": [
+    "commands",
+    "telemetry"
+  ]
+}

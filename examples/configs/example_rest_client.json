@@ -1,0 +1,21 @@
+{
+  "url": "http://localhost:5000",
+  "requests": [
+    {
+      "method": "get",
+      "route": "/index",
+      "params": [],
+      "delay": 2,
+      "repeat": 1
+    },
+    {
+      "method": "post",
+      "route": "/files",
+      "params": {
+        "file": "examples/payloads/payload1.json"
+      },
+      "delay": 1,
+      "repeat": 0
+    }
+  ]
+}

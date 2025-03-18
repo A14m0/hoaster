@@ -1,0 +1,27 @@
+{
+  "get": [
+    {
+      "route": "/example",
+      "code": 200,
+      "file": "examples/payloads/payload1.json"
+    },
+    {
+      "route": "/example/subpath",
+      "code": 200,
+      "file": "examples/payloads/payload2.json"
+    },
+    {
+      "route": "/another/example/subpath",
+      "code": 200,
+      "file": "examples/payloads/payload3.json"
+    }
+  ],
+  "put": [],
+  "post": [
+    {
+      "route": "/test",
+      "code": 200,
+      "file": "examples/payloads/payload4.json"
+    }
+  ]
+}
