@@ -23,5 +23,12 @@
       "code": 200,
       "file": "examples/payloads/payload4.json"
     }
+  ],
+  "delete": [
+    {
+      "route": "/test",
+      "code": 200,
+      "file": ""
+    }
   ]
 }
