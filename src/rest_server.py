@@ -7,7 +7,7 @@ import os
 app = flask.Flask(__name__)
 
 
-@app.route('/<path:path>', methods=["GET", "PUT", "POST"])
+@app.route('/<path:path>', methods=["GET", "PUT", "POST", "DELETE"])
 def handle_route(path):
     path = f"/{path}"
     l.debug(f"Handling request to {path}")
